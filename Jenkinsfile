@@ -5,6 +5,8 @@ pipeline {
             agent { label 'linux' }
             steps {
                 sh 'who am i'
+                sh 'id'
+                sh 'pwd'
             }
         }
         stage('Build') { 
