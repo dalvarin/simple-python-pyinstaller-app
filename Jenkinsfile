@@ -1,6 +1,11 @@
 pipeline {
     agent none 
     stages {
+        stage('Init'){
+            steps {
+                sh 'who am i'
+            }
+        }
         stage('Build') { 
             agent {
                 docker {

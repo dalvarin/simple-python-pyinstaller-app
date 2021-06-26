@@ -1,0 +1,2 @@
+azureuser@jenkins02:/etc/init$ ll /var/run/docker.sock
+srw-rw---- 1 root docker 0 Jun 26 15:53 /var/run/docker.sock=
