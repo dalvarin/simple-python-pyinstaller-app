@@ -2,7 +2,7 @@ pipeline {
     agent none 
     stages {
         stage('Init'){
-            agent linux
+            agent { label 'linux' }
             steps {
                 sh 'who am i'
             }
